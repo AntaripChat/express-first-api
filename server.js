@@ -4,6 +4,7 @@ const app = express();
 const PORT = 2000;
 
 app.use(bodyparser.json());
+// We can also use - app.use(express.json()) and we don't need import body parser
 const data = [
     {
         "Name": "Antarip Chatterjee",
